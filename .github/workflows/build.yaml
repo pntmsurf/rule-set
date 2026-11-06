@@ -1,0 +1,235 @@
+name: Build Rule Sets
+
+on:
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - 'data/**'
+      - 'cmd/**'
+      - 'internal/**'
+      - 'sources.yaml'
+      - 'go.mod'
+      - 'go.sum'
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  MIHOMO_VERSION: v1.19.29
+  SINGBOX_VERSION: v1.11.4
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  validate:
+    name: Validate & Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          cache: true
+          cache-dependency-path: go.sum
+
+      - name: Run linter and unit tests
+        run: |
+          go run ./cmd/linter
+          go test -v ./...
+
+  release:
+    name: Build & Publish Release
+    needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+          cache: true
+          cache-dependency-path: go.sum
+
+      - name: Cache Mihomo and Sing-Box binaries
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/rule-set-bins/mihomo
+            ~/.cache/rule-set-bins/sing-box
+          key: core-bins-${{ runner.os }}-${{ env.MIHOMO_VERSION }}-${{ env.SINGBOX_VERSION }}
+
+      - name: Install Mihomo and Sing-Box
+        run: |
+          mkdir -p ~/.cache/rule-set-bins
+          if [ ! -x ~/.cache/rule-set-bins/mihomo ]; then
+            wget -q -O mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+            gunzip -f mihomo.gz
+            chmod +x mihomo
+            mv mihomo ~/.cache/rule-set-bins/mihomo
+          fi
+          if [ ! -x ~/.cache/rule-set-bins/sing-box ]; then
+            wget -q -O sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION#v}-linux-amd64.tar.gz"
+            tar -xzf sing-box.tar.gz
+            chmod +x "sing-box-${SINGBOX_VERSION#v}-linux-amd64/sing-box"
+            mv "sing-box-${SINGBOX_VERSION#v}-linux-amd64/sing-box" ~/.cache/rule-set-bins/sing-box
+            rm -rf sing-box.tar.gz "sing-box-${SINGBOX_VERSION#v}-linux-amd64"
+          fi
+          sudo cp ~/.cache/rule-set-bins/mihomo /usr/local/bin/mihomo
+          sudo cp ~/.cache/rule-set-bins/sing-box /usr/local/bin/sing-box
+
+      - name: Install git-cliff
+        uses: taiki-e/install-action@v2
+        with:
+          tool: git-cliff
+
+      - name: Check for new commits since last tag
+        id: check
+        run: |
+          set -euo pipefail
+          last_tag=$(git tag --list 'v[0-9]*.[0-9]*.[0-9]*' --sort=-v:refname | head -n1 || true)
+
+          if [ -z "$last_tag" ]; then
+            echo "No previous tags found — starting from v1.0.0."
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "last_tag=" >> "$GITHUB_OUTPUT"
+          else
+            count=$(git rev-list "${last_tag}..HEAD" --count)
+            echo "Commits since ${last_tag}: ${count}"
+            echo "last_tag=${last_tag}" >> "$GITHUB_OUTPUT"
+            if [ "$count" -gt 0 ]; then
+              echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Determine next SemVer via git-cliff
+        id: semver
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          set -euo pipefail
+          if [ -z "${{ steps.check.outputs.last_tag }}" ]; then
+            next_version="v1.0.0"
+          else
+            next_version=$(git-cliff --config cliff.toml --bumped-version)
+          fi
+          echo "Next version: ${next_version}"
+          echo "tag=${next_version}" >> "$GITHUB_OUTPUT"
+
+      - name: Generate full CHANGELOG.md
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git-cliff --config cliff.toml \
+            --github-repo "${{ github.repository }}" \
+            --tag "${{ steps.semver.outputs.tag }}" \
+            -o CHANGELOG.md
+
+      - name: Generate release notes
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git-cliff --config cliff.toml \
+            --github-repo "${{ github.repository }}" \
+            --tag "${{ steps.semver.outputs.tag }}" \
+            --unreleased \
+            --strip header \
+            -o RELEASE_NOTES.md
+
+      - name: Commit CHANGELOG.md back to repo
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          if ! git diff --cached --quiet; then
+            git commit -m "🔖 Update changelog for ${{ steps.semver.outputs.tag }}"
+            git push origin HEAD:main
+          else
+            echo "CHANGELOG.md unchanged, skipping commit."
+          fi
+
+      - name: Prepare Release Directory
+        if: steps.check.outputs.has_changes == 'true'
+        run: mkdir -p release
+
+      - name: Build Mihomo (.mrs)
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/mihomo -mihomo-bin=/usr/local/bin/mihomo
+
+      - name: Build SingBox (.srs)
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/singbox -singbox-bin=/usr/local/bin/sing-box
+
+      - name: Build Xray (<region>-geosite.dat & <region>-geoip.dat)
+        if: steps.check.outputs.has_changes == 'true'
+        run: go run ./cmd/xraycore
+
+      - name: Remove empty rules
+        if: steps.check.outputs.has_changes == 'true'
+        run: find release/ -type f -size 0 -delete
+
+      - name: Publish rule sets to dist branch
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          publish_dir=$(mktemp -d)
+
+          find release/ -type f \( -name '*.dat' -o -name '*.srs' -o -name '*.mrs' \) \
+            -exec cp {} "$publish_dir/" \;
+
+          echo "Files published to dist branch ($(ls -1 "$publish_dir" | wc -l) files)"
+
+          cd "$publish_dir"
+          git init -q -b dist
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "🔖 Publish rule sets for ${{ steps.semver.outputs.tag }}"
+          git remote add origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git push -q --force origin HEAD:refs/heads/dist
+
+      - name: Package bundles and publish GitHub Release
+        if: steps.check.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.semver.outputs.tag }}
+        run: |
+          set -euo pipefail
+          cd release
+          tar -czf singbox-srs.tar.gz *.srs
+          tar -czf mihomo-mrs.tar.gz *.mrs
+          tar -czf xray-dat.tar.gz *.dat
+          cd ..
+
+          # Delete any leftover draft/existing release for this tag if retrying
+          gh release delete "${TAG}" --yes --cleanup-tag 2>/dev/null || true
+
+          # Create published (non-draft) GitHub Release with regional .dat files and bundles (13 assets -> 0 secondary rate limits!)
+          gh release create "${TAG}" \
+            release/*.dat \
+            release/singbox-srs.tar.gz \
+            release/mihomo-mrs.tar.gz \
+            release/xray-dat.tar.gz \
+            --title "${TAG}" \
+            --notes-file RELEASE_NOTES.md \
+            --verify-tag=false \
+            --latest
