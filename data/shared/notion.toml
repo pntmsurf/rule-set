@@ -1,0 +1,11 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/notion
++.notion-static.com
++.notion-status.com
++.notion.com
++.notion.new
++.notion.site
++.notion.so
++.notionusercontent.com
+
+[cidr]

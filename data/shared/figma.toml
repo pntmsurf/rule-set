@@ -1,0 +1,5 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/figma
++.figma.com
+
+[cidr]

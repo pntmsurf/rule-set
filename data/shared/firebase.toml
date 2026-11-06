@@ -1,0 +1,37 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/firebase
++.crashlytics.com
++.firebase.com
++.firebase.io
++.firebaseapp.com
++.firebaseio.com
+crashlyticsreports-pa.googleapis.com
+firebase-settings.crashlytics.com
+firebase.google.com
+firebase.googleapis.com
+firebaseappcheck.googleapis.com
+firebasedynamiclinks-ipv4.googleapis.com
+firebasedynamiclinks-ipv6.googleapis.com
+firebasedynamiclinks.googleapis.com
+firebaseinappmessaging.googleapis.com
+firebaseinstallations.googleapis.com
+firebaselogging-pa.googleapis.com
+firebaselogging.googleapis.com
+firebaseperusertopics-pa.googleapis.com
+firebaseremoteconfig.googleapis.com
+update.crashlytics.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/googlefcm
+alt1-mtalk.google.com
+alt2-mtalk.google.com
+alt3-mtalk.google.com
+alt4-mtalk.google.com
+alt5-mtalk.google.com
+alt6-mtalk.google.com
+alt7-mtalk.google.com
+alt8-mtalk.google.com
+mtalk-dev.google.com
+mtalk-staging.google.com
+mtalk.google.com
+mtalk4.google.com
+
+[cidr]

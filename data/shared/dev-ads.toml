@@ -1,0 +1,27 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-telemetry
+# https://github.com/v2fly/domain-list-community/blob/master/data/github
++.collector.github.com
+full:origin-tracker.githubusercontent.com
+full:stats.jetbrains.com
+full:reporting.jetbrains.com
+full:dc.services.visualstudio.com
+full:vortex.data.microsoft.com
+full:mobile.pipe.aria.microsoft.com
+full:default.exp-tas.com
+full:telemetry.aha.io
+full:telemetry.npmjs.org
+full:telemetry.nextjs.org
+full:telemetry.astro.build
+full:telemetry.vercel.com
+full:telemetry.strapi.io
+full:telemetry.Hasura.io
+full:telemetry.CrewAI.com
+full:scarf.sh
++.scarf.sh
++.sentry.io
++.sentry.dev
++.hc-ping.com
++.hchk.io
+
+[cidr]

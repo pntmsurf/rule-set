@@ -1,0 +1,27 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/adobe
++.advertising.adobe.com
++.demdex.net
++.tubemogul.com
++.adobedtm.com
++.adobestats.io
++.omniture.com
++.omtrdc.net
++.2o7.net
++.everesttech.net
++.everestjs.net
++.everestads.net
++.marketo.com
++.marketo.net
++.mktorest.com
++.mktoresp.com
+full:cc-api-data.adobe.io
+full:ic.adobe.io
+full:lcs-cops.adobe.io
+full:crs.cr.adobe.com
+full:stats.adobe.com
+full:sstats.adobe.com
+full:telemetry.canva.com
+full:stats.figma.com
+
+[cidr]

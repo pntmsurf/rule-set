@@ -1,0 +1,12 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/golang
++.go-lang.com
++.go-lang.net
++.go-lang.org
++.go.dev
++.godoc.org
++.golang.com
++.golang.net
++.golang.org
+
+[cidr]

@@ -1,0 +1,10 @@
+[domains]
+# https://github.com/pincetgore/PinRouting/blob/main/geosite/data/category-geoblock-ru
++.miro.com
++.miro-apps.com
++.asana.com
++.clickup.com
++.monday.com
++.mondayapps.com
+
+[cidr]

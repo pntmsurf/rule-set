@@ -1,0 +1,11 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/dart
++.dart.dev
++.dartlang.org
++.dartpad.dev
+# https://github.com/v2fly/domain-list-community/blob/master/data/flutter
++.flutter.dev
++.flutterapp.com
++.pub.dev
+
+[cidr]
