@@ -1,0 +1,29 @@
+[domains]
+# https://github.com/Chocolate4U/Iran-v2ray-rules/blob/main/config.json
+# https://github.com/MasterKia/PersianBlocker/blob/main/PersianBlockerAnnoyances-Domains.txt
+# https://github.com/hiddify/filteryab
++.peyvandha.ir
++.dci.ir
+full:logo.samandehi.ir
+full:trustseal.e-rasaneh.ir
+full:trustseal.enamad.ir
+full:filter.ito.gov.ir
+full:internet.ir
+full:ldap.cra.ir
+
+[cidr]
+# https://github.com/Chocolate4U/Iran-v2ray-rules/blob/main/config.json
+10.10.34.0/24
+10.10.34.34/32
+10.10.34.35/32
+10.10.34.36/32
+93.115.151.123/32
+87.107.132.83/32
+185.130.45.94/32
+162.62.116.251/32
+162.62.115.144/32
+217.218.127.127/32
+217.218.155.155/32
+2001:4188:2:600:10:10:34:34/128
+2001:4188:2:600:10:10:34:35/128
+2001:4188:2:600:10:10:34:36/128

@@ -1,0 +1,12 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ir
++.avalai.ir
++.gapgpt.app
++.talkbot.ir
++.hooshang.ai
++.zigap.ir
++.roshan-ai.ir
++.farsava.ir
++.alefba.roshan-ai.ir
+
+[cidr]

@@ -1,0 +1,13 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ir
++.jobinja.ir
++.jobvision.ir
++.irantalent.com
++.karboom.io
++.e-estekhdam.com
++.iranestekhdam.ir
++.estekhdam.in
++.ponisha.ir
++.karlancer.com
+
+[cidr]

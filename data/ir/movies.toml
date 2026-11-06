@@ -1,0 +1,27 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-media-ir
+# https://github.com/v2fly/domain-list-community/blob/master/data/filimo
++.filimo.com
++.filimoschool.com
++.namava.ir
++.namava.com
++.filmnet.ir
++.telewebion.com
++.gapfilm.ir
++.tamasha.com
++.tiwall.com
++.cinematicket.org
++.iranconcert.com
++.honar.ticket
++.mp4.ir
++.dalfak.com
++.namasha.com
++.lenz.ir
++.aionet.ir
++.uptvs.com
++.doostihaa.com
++.zarfilm.com
++.digimoviez.com
++.avamovie.shop
+
+[cidr]

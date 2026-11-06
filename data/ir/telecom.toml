@@ -1,0 +1,29 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-mobile-operators-ir
+# https://github.com/bootmortis/iran-hosted-domains/blob/main/src/data/adsl_tci.txt
++.mci.ir
++.mymci.ir
++.hamrah.academy
++.irancell.ir
++.myirancell.ir
++.mtnirancell.ir
++.rightel.ir
++.shatel.ir
++.shatelmobile.ir
++.my.shatel.ir
++.asiatech.ir
++.parsonline.com
++.hiweb.ir
++.mobinnet.ir
++.respina.net
++.tci.ir
++.zitel.ir
++.sabanet.ir
++.fanava.ir
++.pishgaman.net
++.aptel.ir
++.samantel.ir
++.lotustel.ir
++.ariantel.ir
+
+[cidr]

@@ -1,0 +1,21 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-media-ir
+# https://github.com/bootmortis/iran-hosted-domains/blob/main/src/data/custom_domains.py
++.radiojavan.ir
++.melobit.com
++.beeptunes.com
++.navahang.com
++.musicfa.co
++.music-fa.com
++.upmusics.com
++.rozmusic.com
++.musics-mehr.com
++.pop-music.ir
++.ganja2music.com
++.mybia2music.com
++.tehranmusic.org
++.sedabazar.com
++.navaak.com
++.shenoto.com
+
+[cidr]

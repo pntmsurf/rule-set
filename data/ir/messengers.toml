@@ -1,0 +1,29 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-social-media-ir
+# https://github.com/Chocolate4U/Iran-v2ray-rules/blob/main/config.json
++.rubika.ir
++.iranlms.ir
++.eitaa.com
++.eitaa.ir
++.eitaa.org
++.bale.ai
++.bale.ir
++.bale.sh
++.splus.ir
++.soroush-app.ir
++.soroush.app
++.igap.net
++.igap.ir
++.gap.im
++.gap.ir
++.shad.ir
++.bisphone.com
++.wispi.me
++.hoorsa.com
+
+[cidr]
+# https://github.com/Chocolate4U/Iran-v2ray-rules/blob/main/config.json
+5.106.4.0/22
+5.106.8.0/22
+185.13.228.0/22
+185.112.32.0/22

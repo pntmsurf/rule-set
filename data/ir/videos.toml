@@ -1,0 +1,17 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/aparat
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-media-ir
++.aparat.com
++.aparat.ir
++.aparatkids.com
++.aparatsport.com
++.sabaidea.com
++.cdn.asset.aparat.com
++.telewebion.com
++.tamasha.com
++.namasha.com
++.dalfak.com
++.mp4.ir
++.ifilo.net
+
+[cidr]

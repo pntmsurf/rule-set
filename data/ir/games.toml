@@ -1,0 +1,16 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ir
++.bazicenter.com
++.vigiato.net
++.zoomg.ir
++.gamefa.com
++.par30games.net
++.dlfox.com
++.vgdl.ir
++.quizofkings.com
++.medrickgames.com
++.paeezanstudio.com
++.heyola.ir
++.radar.game
+
+[cidr]

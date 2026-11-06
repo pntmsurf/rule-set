@@ -1,0 +1,31 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-forums-ir
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-tech-media-ir
++.soft98.ir
++.p30world.com
++.p30download.ir
++.p30download.com
++.yasdl.com
++.sarzamindownload.com
++.downloadha.com
++.patoghu.com
++.mihandownload.com
++.par30games.net
++.vgdl.ir
++.dlfox.com
++.gamefa.com
++.zoomg.ir
++.vigiato.net
++.zoomit.ir
++.digiato.com
++.toranji.ir
++.gadgetnews.net
++.1pezeshk.com
++.itiran.com
++.sakhtafzarmag.com
++.shahrsakhtafzar.com
++.persiantools.com
++.tarafdari.com
++.varzesh3.com
+
+[cidr]
