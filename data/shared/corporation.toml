@@ -1,0 +1,10 @@
+[domains]
+@google
+@amazon
+@microsoft
+@msn
+@bing
+@meta
+
+[cidr]
+@meta

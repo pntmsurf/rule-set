@@ -1,0 +1,23 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/msn
++.microsoftnews.cc
++.microsoftnews.cn
++.microsoftnews.com
++.microsoftnews.net
++.microsoftnews.org
++.microsoftnewsforkids.com
++.microsoftnewsforkids.net
++.microsoftnewsforkids.org
++.microsoftnewskids.com
++.microsoftnewskids.net
++.microsoftnewskids.org
++.msn.cn
++.msn.com
++.msnewskids.com
++.msnewskids.net
++.msnewskids.org
++.msnkids.com
++.microsoftstart.com
++.start.com
+
+[cidr]
