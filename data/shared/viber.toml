@@ -1,0 +1,10 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/viber
++.viber.com
++.viber.co
++.viber.me
++.s-bid.rmp.rakuten.com
++.vbcdn.com
++.vbcdn.net
+
+[cidr]

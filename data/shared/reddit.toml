@@ -1,0 +1,16 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/reddit
++.redd.it
++.reddit.app.link
++.reddit.com
++.redditblog.com
++.reddithelp.com
++.redditinc.com
++.redditmail.com
++.redditmedia.com
++.redditspace.com
++.redditstatic.com
++.redditstatus.com
++.reddit.map.fastly.net
+
+[cidr]

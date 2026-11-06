@@ -1,0 +1,7 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/threads
++.threads.com
++.threads.net
+
+[cidr]
+@meta

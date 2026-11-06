@@ -1,0 +1,43 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/twitter
++.ads-twitter.com
++.cms-twdigitalassets.com
++.periscope.tv
++.pscp.tv
++.t.co
++.tellapart.com
++.tweetdeck.com
++.twimg.com
++.twitpic.com
++.twitter.biz
++.twitter.com
++.twitter.jp
++.twittercommunity.com
++.twitterflightschool.com
++.twitterinc.com
++.twitteroauth.com
++.twitterstat.us
++.twtrdns.net
++.twttr.com
++.twttr.net
++.twvid.com
++.vine.co
++.x.com
+
+[cidr]
+# https://github.com/itdoginfo/allow-domains/blob/main/Subnets/IPv4/twitter.lst
+64.63.0.0/18
+103.252.112.0/22
+104.244.41.0/24
+104.244.42.0/24
+104.244.44.0/22
+188.64.224.0/21
+192.133.76.0/22
+199.16.156.0/22
+199.59.148.0/22
+199.96.56.0/23
+202.160.128.0/22
+# https://github.com/itdoginfo/allow-domains/blob/main/Subnets/IPv6/twitter.lst
+2400:6680:f000::/36
+2606:1f80:f000::/36
+2a04:9d40:f000::/36

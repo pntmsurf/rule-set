@@ -1,0 +1,12 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
++.skype
++.skype.com
++.skype.net
++.skypeassets.com
++.skypeassets.net
++.skypeyammer.com
++.skype-edf.akadns.net
++.skypedata.akadns.net
+
+[cidr]

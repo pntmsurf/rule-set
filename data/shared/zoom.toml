@@ -1,0 +1,7 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/zoom
++.zoom.com
++.zoom.com.cn
++.zoom.us
+
+[cidr]

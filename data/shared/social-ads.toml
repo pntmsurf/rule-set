@@ -1,0 +1,76 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/twitter
++.ads-twitter.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/facebook
++.analytics.facebook.com
++.facebookads.com
++.pixel.facebook.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/instagram
++.graph.instagram.com
++.graph-fallback.instagram.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/whatsapp
++.graph.whatsapp.com
++.graph.whatsapp.net
+# https://github.com/v2fly/domain-list-community/blob/master/data/reddit
+# https://gitlab.com/hagezi/mirror/-/blob/main/dns-blocklists/hosts/native.tiktok.txt
++.an.facebook.com
++.atdmt.com
++.atdmt2.com
++.atlasdmt.com
++.liverail.com
++.liverail.tv
++.fbthirdpartypixel.com
++.fbthirdpartypixel.net
++.fbthirdpartypixel.org
++.ads-api.twitter.com
++.ads-api.x.com
++.analytics.twitter.com
++.analytics.x.com
++.scribe.twitter.com
++.scribe.x.com
++.p.twitter.com
++.tellapart.com
++.ads.tiktok.com
++.ads-api.tiktok.com
++.ads-sg.tiktok.com
++.ads-us.tiktok.com
++.analytics.tiktok.com
++.analytics-sg.tiktok.com
++.business-api.tiktok.com
++.log.tiktokv.com
++.log-va.tiktokv.com
++.log16-normal-c-useast1a.tiktokv.com
++.mon.tiktokv.com
++.mon-va.tiktokv.com
++.mcs.tiktokv.com
++.mssdk.tiktokv.com
++.rtlog.tiktokv.com
++.s20.tiktokcdn.com
++.adinstantpage16-normal-useastred.tiktokv.eu
++.pangolin-sdk-toutiao.com
++.pglstatp-toutiao.com
++.byteoversea.net
++.events.reddit.com
++.events.redditmedia.com
++.alb.reddit.com
++.d.reddit.com
++.w3-reporting.reddit.com
++.w3-reporting-nel.reddit.com
++.rereddit.com
++.ads.linkedin.com
++.px.ads.linkedin.com
++.dc.ads.linkedin.com
++.bizographics.com
+full:linkedin.sc.omtrdc.net
++.tr.snapchat.com
++.ads.snapchat.com
++.adsapi.snapchat.com
++.sc-analytics.appspot.com
++.ct.pinterest.com
++.ads.pinterest.com
++.trk.pinterest.com
++.analytics.pinterest.com
+full:science.discord.com
+full:telemetry.discord.com
+
+[cidr]

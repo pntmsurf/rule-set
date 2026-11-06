@@ -1,0 +1,17 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/whatsapp
++.wa.me
++.whatsapp-plus.info
++.whatsapp-plus.me
++.whatsapp-plus.net
++.whatsapp.cc
++.whatsapp.com
++.whatsapp.info
++.whatsapp.net
++.whatsapp.org
++.whatsapp.tv
++.whatsappbrand.com
+# https://github.com/itdoginfo/allow-domains/blob/main/Services/meta.lst
++.whatsapp.biz
+
+[cidr]
