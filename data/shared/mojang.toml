@@ -1,0 +1,10 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/mojang
++.callersbane.com
++.minecraft-services.net
++.minecraft.net
++.minecraftservices.com
++.minecraftshop.com
++.mojang.com
+
+[cidr]

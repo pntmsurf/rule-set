@@ -1,0 +1,9 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/forza
++.forza.net
++.forzamotorsport.net
++.forzaracingchampionship.com
++.forzarc.com
+prodforza.blob.core.windows.net
+
+[cidr]

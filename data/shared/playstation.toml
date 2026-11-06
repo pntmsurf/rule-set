@@ -1,0 +1,8 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/playstation
++.playstation
++.playstation.com
++.playstation.net
++.sonyentertainmentnetwork.com
+
+[cidr]

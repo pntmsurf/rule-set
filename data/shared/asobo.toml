@@ -1,0 +1,7 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/asobo
++.asobostudio.com
++.flightsimulator.com
+flightsimulator.azureedge.net
+
+[cidr]
