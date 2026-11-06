@@ -1,0 +1,11 @@
+[domains]
++.gov.uk
++.nhs.uk
++.parliament.uk
++.police.uk
++.mod.uk
++.judiciary.uk
++.bankofengland.co.uk
++.royal.uk
+
+[cidr]

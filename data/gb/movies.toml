@@ -1,0 +1,16 @@
+[domains]
++.bbc.co.uk
++.bbc.com
++.bbci.co.uk
++.itv.com
++.itvx.com
++.channel4.com
++.c4assets.com
++.channel5.com
++.my5.tv
++.sky.com
++.nowtv.com
++.britbox.co.uk
++.britbox.com
+
+[cidr]

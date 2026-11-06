@@ -1,0 +1,15 @@
+[domains]
++.barclays.co.uk
++.hsbc.co.uk
++.lloydsbank.com
++.lloydsbank.co.uk
++.natwest.com
++.santander.co.uk
++.halifax.co.uk
++.nationwide.co.uk
++.monzo.com
++.revolut.com
++.starlingbank.com
++.wise.com
+
+[cidr]

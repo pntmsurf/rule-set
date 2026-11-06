@@ -1,0 +1,17 @@
+[domains]
++.chase.com
++.bankofamerica.com
++.wellsfargo.com
++.citi.com
++.citibank.com
++.capitalone.com
++.americanexpress.com
++.discover.com
++.fidelity.com
++.schwab.com
++.vanguard.com
++.paypal.com
++.venmo.com
++.stripe.com
+
+[cidr]
