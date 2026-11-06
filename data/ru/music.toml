@@ -1,0 +1,8 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/sber
++.zvuk-b2b.com
++.zvuk.com
+# https://github.com/v2fly/domain-list-community/blob/06111d32139e3497a20fded97ca2b4424ad87e60/data/category-entertainment-ru#L17
++.promodj.com
+
+[cidr]

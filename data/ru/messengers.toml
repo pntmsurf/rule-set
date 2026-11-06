@@ -1,0 +1,44 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/sber
++.jivo.chat
++.jivo.ru
++.jivochat.co.in
++.jivochat.co.za
++.jivochat.com
++.jivochat.com.br
++.jivochat.com.co
++.jivochat.com.pe
++.jivochat.com.tr
++.jivochat.de
++.jivochat.es
++.jivochat.ng
++.jivochat.ru
++.jivosite.com
++.jivosite.ru
+# https://github.com/v2fly/domain-list-community/blob/master/data/vk
++.vk.me
++.vkmessenger.app
++.vkmessenger.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/mailru-group
++.max.ru
++.oneme.ru
++.sferum-dev.ru
++.sferum.ru
++.icq.com
++.icq.im
++.icq.net
++.salutejazz.ru
++.agro-max.ru
++.bigdatamax.ru
++.bit-max.ru
++.fitomax.ru
++.historymax.ru
++.kissvk.me
++.leamax.ru
++.pollmax.ru
++.puremax.ru
++.vapormax.ru
++.yoya-plus-max.ru
++.zavodromax.ru
+
+[cidr]

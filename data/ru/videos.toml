@@ -1,0 +1,16 @@
+[domains]
+# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/dzen.yaml
++.dzen.ru
++.dzeninfra.ru
++.log.dzen.ru
++.ms.dzen.ru
+# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/rutube.yaml
++.rutube.ru
++.rutubelist.ru
++.rtbcdn.ru
++.rutube.sport
+# https://github.com/v2fly/domain-list-community/blob/master/data/mailru-group
++.viqeo.tv
++.viqeotv.com
+
+[cidr]

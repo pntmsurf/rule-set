@@ -1,0 +1,38 @@
+[domains]
+# https://github.com/tread-lightly/CyberOK_Skipa_ips
++.reestr.rublacklist.net
++.vigruzki.rkn.gov.ru
++.blocklist.rkn.gov.ru
+# https://github.com/C24Be/AS_Network_List
+# https://github.com/itdoginfo/allow-domains
++.rkn.gov.ru
++.eais.rkn.gov.ru
++.zapret-info.gov.ru
++.nap.rkn.gov.ru
++.398-fz.rkn.gov.ru
++.grfc.ru
++.mir.grfc.ru
++.noc.gov.ru
++.geoip.noc.gov.ru
++.rfc-revizor.ru
+full:spy.revizorro.p.rkn.gov.ru
++.rublacklist.net
+
+[cidr]
+# https://github.com/tread-lightly/CyberOK_Skipa_ips
+194.190.152.0/24
+195.82.146.0/24
+# https://github.com/C24Be/AS_Network_List
+185.224.228.0/22
+195.209.120.0/22
+212.192.156.0/22
+212.192.158.0/24
+194.165.22.0/23
+62.76.98.0/24
+85.142.100.0/24
+92.38.153.0/24
+5.143.224.100/30
+5.143.224.104/30
+194.226.80.0/22
+194.226.128.0/24
+2a0d:b680::/29
