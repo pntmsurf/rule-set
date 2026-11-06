@@ -1,0 +1,8 @@
+/mihomo
+/mihomo.gz
+/sing-box*
+/release/
+.build/
+*.dat
+*.srs
+*.mrs

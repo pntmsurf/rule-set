@@ -1,0 +1,117 @@
+shared:
+  ads:
+    domains:
+      type: adguard
+      sources:
+        - https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/filter.txt
+        - https://small.oisd.nl
+        - https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
+
+  microsoft-spy:
+    domains:
+      type: hosts
+      sources:
+        - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+    ips:
+      type: cidr-plain
+      sources:
+        - https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/spy.txt
+
+  cloudflare:
+    ips:
+      type: cidr-plain
+      sources:
+        - https://www.cloudflare.com/ips-v4/
+        - https://www.cloudflare.com/ips-v6/
+
+ru:
+  blocked:
+    domains:
+      type: plain
+      sources:
+        - https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Categories/block.lst
+        - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/domains_all.lst
+        - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community.lst
+        - https://community.antifilter.download/list/domains.lst
+    ips:
+      type: cidr-plain
+      sources:
+        - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/ipsum.lst
+        - https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community_ips.lst
+        - https://community.antifilter.download/list/community.lst
+
+  ru:
+    domains:
+      type: plain
+      sources:
+        - https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst
+        - https://raw.githubusercontent.com/UnRKN/ru-blocklist/refs/heads/main/ru-blocklist-ext.txt
+        - https://raw.githubusercontent.com/oxystin/shadowrocket-configuration/main/rule/domain_banking.list
+
+  yandex:
+    ips:
+      type: cidr-plain
+      sources:
+        - https://yandex.ru/ips
+
+cn:
+  cn:
+    domains:
+      type: clash-payload
+      sources:
+        - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml
+    ips:
+      type: cidr-plain
+      sources:
+        - https://raw.githubusercontent.com/17mon/china_ip_list/master/china_ip_list.txt
+        - https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
+
+  ads:
+    domains:
+      type: adguard
+      sources:
+        - https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+        - https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+
+  censor:
+    domains:
+      type: plain
+      sources:
+        - https://raw.githubusercontent.com/sioxe823/Project-RnJlRUhL/main/chinese_gov_forced_install.txt
+
+ir:
+  ir:
+    domains:
+      type: plain
+      sources:
+        - https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ir.txt
+        - https://raw.githubusercontent.com/bootmortis/iran-hosted-domains/main/output/domains.txt
+    ips:
+      type: cidr-plain
+      sources:
+        - https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/ircidr.txt
+
+  ads:
+    domains:
+      type: hosts
+      sources:
+        - https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
+        - https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerAds-Hosts.txt
+
+  arvancloud:
+    ips:
+      type: cidr-plain
+      sources:
+        - https://www.arvancloud.ir/en/dev/ips
+
+us:
+  us:
+    domains:
+      type: plain
+      sources: []
+
+gb:
+  gb:
+    domains:
+      type: plain
+      sources: []
