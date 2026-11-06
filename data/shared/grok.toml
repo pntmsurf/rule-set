@@ -1,0 +1,9 @@
+[domains]
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/xai
++.x.ai
++.grok-ai-system.com
++.grok.com
++.grok.x.com
++.grokipedia.com
+
+[cidr]

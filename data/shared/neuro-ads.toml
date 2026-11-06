@@ -1,0 +1,20 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/github-copilot
+copilot-telemetry-service.githubusercontent.com
+copilot-telemetry.githubusercontent.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/openai
+full:copilot-telemetry-service.githubusercontent.com
+full:copilot-telemetry.githubusercontent.com
+full:ab.chatgpt.com
++.oaistatsig.com
+full:o33249.ingest.sentry.io
+full:openai.qualtrics.com
+full:anthropic.qualtrics.com
+full:statsig.anthropic.com
+full:telemetry.cursor.sh
+full:metrics.cursor.sh
+full:telemetry.perplexity.ai
+full:telemetry.ollama.com
+full:telemetry.continue.dev
+
+[cidr]

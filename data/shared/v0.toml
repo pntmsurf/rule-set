@@ -1,0 +1,5 @@
+[domains]
++.v0.app
++.v0.dev
+
+[cidr]

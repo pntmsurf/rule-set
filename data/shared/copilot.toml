@@ -1,0 +1,14 @@
+[domains]
++.githubcopilot.com
++.copilot-stg.com
++.copilot.cloud.microsoft
++.copilot.com
++.copilot.microsoft.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/github-copilot
+copilot-proxy.githubusercontent.com
+copilot-workspace.githubnext.com
+copilotprodattachments.blob.core.windows.net
+# https://github.com/v2fly/domain-list-community/blob/master/data/bing
+location.microsoft.com
+
+[cidr]

@@ -1,0 +1,6 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/elevenlabs
++.elevenlabs.com
++.elevenlabs.io
+
+[cidr]

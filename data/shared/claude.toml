@@ -1,0 +1,12 @@
+[domains]
+# https://raw.githubusercontent.com/ImpXada/Geosite2Surge/refs/heads/main/data/category-ai-!cn
++.anthropic.com
++.clau.de
++.claude.ai
++.claude.com
++.claudemcpclient.com
++.claudemcpcontent.com
++.claudeusercontent.com
+servd-anthropic-website.b-cdn.net
+
+[cidr]

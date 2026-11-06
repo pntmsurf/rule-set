@@ -1,0 +1,8 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/cursor
++.cursor-cdn.com
++.cursor.com
++.cursor.sh
++.cursorapi.com
+
+[cidr]

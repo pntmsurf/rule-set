@@ -1,0 +1,27 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/category-ai-!cn
++.midjourney.com
++.mistral.ai
++.runway.com
++.cohere.ai
++.cohere.com
+# https://github.com/Banezzz/private_clash_rules/blob/main/ai.list
++.luma.ai
++.lumalabs.ai
++.suno.com
++.suno.ai
++.udio.com
++.krea.ai
++.leonardo.ai
++.runwayml.com
++.tabnine.com
++.devin.ai
++.cognition.ai
++.deepwiki.com
++.deepwiki.org
+# https://github.com/Edisenlee/miao/blob/main/Redirect.list
++.quillbot.com
++.grammarly.com
++.groq.com
+
+[cidr]
