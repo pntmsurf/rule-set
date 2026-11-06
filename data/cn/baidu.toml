@@ -1,0 +1,31 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/baidu
++.baidu.com
++.baidu.cn
++.baidu.com.cn
++.baidubce.com
++.baidupcs.com
++.baidustatic.com
++.bdimg.com
++.bdstatic.com
++.bcebos.com
++.bcelive.com
++.baiducontent.com
++.baidubcr.com
++.baidupan.com
++.dlnel.com
++.dlnel.org
++.dwz.cn
++.hao123.com
++.jomodns.com
++.nuomi.com
++.tieba.com
++.tiebaimg.com
++.zuoyebang.com
++.zybang.com
+
+[cidr]
+# https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Baidu/Baidu.yaml
+180.76.0.0/16
+119.75.208.0/20
+220.181.0.0/16

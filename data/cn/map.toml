@@ -1,0 +1,30 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/amap
+# https://github.com/v2fly/domain-list-community/blob/master/data/didi
++.amap.com
++.autonavi.com
++.gaode.com
++.map.baidu.com
++.map.qq.com
++.apis.map.qq.com
++.didiglobal.com
++.didichuxing.com
++.didistatic.com
++.udache.com
++.xiaojukeji.com
++.caocaokeji.cn
++.t3go.cn
++.shouqiev.com
++.hellobike.com
++.hello-inc.com
++.ctrip.com
++.c-ctrip.com
++.tripcdn.com
++.qunar.com
++.qunarzz.com
++.ly.com
++.elong.com
++.tuniu.com
++.variflight.com
+
+[cidr]

@@ -1,0 +1,30 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/meituan
+# https://github.com/v2fly/domain-list-community/blob/master/data/eleme
++.meituan.com
++.meituan.net
++.dianping.com
++.dpfile.com
++.sankuai.com
++.pipi.cn
++.neixin.cn
++.ele.me
++.elemecdn.com
++.elenet.me
++.lkcoffee.com
++.luckincoffee.com
++.heytea.com
++.nayuki.com
++.chagee.com
++.mxbc.com
++.4008823823.com.cn
++.kfc.com.cn
++.4008517517.cn
++.mcdonalds.com.cn
++.starbucks.com.cn
++.xiachufang.com
++.dingdong.com
++.ddxq.mobi
++.pupuapi.com
+
+[cidr]

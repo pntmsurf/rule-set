@@ -1,0 +1,61 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/jd
+# https://github.com/v2fly/domain-list-community/blob/master/data/pinduoduo
+# https://github.com/v2fly/domain-list-community/blob/master/data/dewu
+# https://github.com/v2fly/domain-list-community/blob/master/data/suning
+# https://github.com/v2fly/domain-list-community/blob/master/data/vip
+# https://github.com/v2fly/domain-list-community/blob/master/data/dangdang
+# https://github.com/v2fly/domain-list-community/blob/master/data/smzdm
+@cn-alibaba
++.jd.com
++.jd.cn
++.jd.hk
++.360buy.com
++.360buy.cn
++.360buyimg.com
++.360top.com
++.jcloudcs.com
++.jdcloud.com
++.jdcloudcdn.com
++.jdcloud-api.com
++.jddglobal.com
++.jdl.com
++.jdl.cn
++.jdwl.com
++.paipai.com
++.yiyaojd.com
++.7fresh.com
++.pinduoduo.com
++.yangkeduo.com
++.pddpic.com
++.pddugc.com
++.pddcdn.com
++.dewu.com
++.poizon.com
++.shizhuang-inc.com
++.dewucdn.com
++.duapp.com
++.suning.com
++.suning.cn
++.suningcloud.com
++.suningestate.com
++.cnsuning.com
++.vip.com
++.vipshop.com
++.appsimg.com
++.vipstatic.com
++.dangdang.com
++.ddimg.cn
++.smzdm.com
++.zdmimg.com
++.youzan.com
++.yzcdn.cn
++.weidian.com
++.geilicdn.com
++.kaola.com
++.yanxuan.com
++.kongfz.com
++.zhuanzhuan.com
+
+[cidr]
+@cn-alibaba

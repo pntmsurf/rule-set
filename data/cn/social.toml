@@ -1,0 +1,36 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/sina
+# https://github.com/v2fly/domain-list-community/blob/master/data/xiaohongshu
+# https://github.com/v2fly/domain-list-community/blob/master/data/zhihu
+# https://github.com/v2fly/domain-list-community/blob/master/data/douban
++.weibo.com
++.weibo.cn
++.weibocdn.com
++.sina.com
++.sina.cn
++.sina.com.cn
++.sinaimg.cn
++.sinajs.cn
++.t.cn
++.xiaohongshu.com
++.xhscdn.com
++.xhscdn.net
++.xhslink.com
++.zhihu.com
++.zhimg.com
++.douban.com
++.douban.fm
++.doubanio.com
++.tieba.baidu.com
++.tieba.com
++.tiebaimg.com
++.lofter.com
++.okjike.com
++.jike.city
++.qzone.com
++.renren.com
++.mafengwo.cn
++.mafengwo.net
++.qyer.com
+
+[cidr]

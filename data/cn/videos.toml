@@ -1,0 +1,51 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/bilibili
+# https://github.com/v2fly/domain-list-community/blob/master/data/douyin
+# https://github.com/v2fly/domain-list-community/blob/master/data/kuaishou
+# https://github.com/v2fly/domain-list-community/blob/master/data/huya
+# https://github.com/v2fly/domain-list-community/blob/master/data/douyu
++.bilibili.com
++.bilibili.tv
++.biliapi.com
++.biliapi.net
++.biligame.com
++.biligame.net
++.bilivideo.com
++.bilivideo.cn
++.bilivideo.net
++.hdslb.com
++.hdslb.net
++.b23.tv
++.acg.tv
++.acgvideo.com
++.smtcdns.net
++.douyin.com
++.douyincdn.com
++.douyinpic.com
++.douyinstatic.com
++.douyinvod.com
++.iesdouyin.com
++.ixigua.com
++.ixiguavideo.com
++.bdxiguaimg.com
++.bdxiguastatic.com
++.bdxiguavod.com
++.kuaishou.com
++.kuaishouzt.com
++.kwaicdn.com
++.kwai.net
++.gifshow.com
++.yximgs.com
++.acfun.cn
++.aixifan.com
++.huya.com
++.msstatic.com
++.douyu.com
++.douyu.tv
++.douyucdn.cn
++.douyuscdn.com
++.pearvideo.com
++.xinpianchang.com
++.haokan.baidu.com
+
+[cidr]

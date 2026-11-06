@@ -1,0 +1,37 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/nga
+# https://github.com/v2fly/domain-list-community/blob/master/data/hupu
+# https://github.com/v2fly/domain-list-community/blob/master/data/coolapk
++.nga.cn
++.178.com
++.ngabbs.com
++.ngacn.cc
++.hupu.com
++.hoopchina.com.cn
++.shihuo.cn
++.coolapk.com
++.coolapkmarket.com
++.chiphell.com
++.v2ex.com
++.stage1st.com
++.saraba1st.com
++.52pojie.cn
++.kanxue.com
++.pediy.com
++.right.com.cn
++.koolshare.cn
++.hostloc.com
++.nodeseek.com
++.linux.do
++.discuz.net
++.tianya.cn
++.mop.com
++.kdnet.net
++.feng.com
++.weiphone.com
++.xitek.com
++.dgtle.com
++.sspai.com
++.guokr.com
+
+[cidr]

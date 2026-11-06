@@ -1,0 +1,29 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/51job
+# https://github.com/v2fly/domain-list-community/blob/master/data/liepin
+# https://github.com/v2fly/domain-list-community/blob/master/data/lagou
++.zhipin.com
++.bosszhipin.com
++.kanzhun.com
++.weizhipin.com
++.51job.com
++.51jobcdn.com
++.yingjiesheng.com
++.liepin.com
++.liepin.cn
++.lietou.com
++.lietou-static.com
++.zhaopin.com
++.zhaopin.cn
++.highpin.cn
++.lagou.com
++.lgstatic.com
++.maimai.cn
++.taou.com
++.shixiseng.com
++.nowcoder.com
++.nowcoder.net
++.moka.com
++.mokahr.com
+
+[cidr]

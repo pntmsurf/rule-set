@@ -1,0 +1,78 @@
+[domains]
+# https://github.com/net4people/bbs/issues/354
+# https://github.com/BlueSkyXN/96110
+# https://github.com/sioxe823/Project-RnJlRUhL/blob/main/chinese_gov_forced_install.txt
+# https://github.com/blackmatrix7/ios_rule_script/issues/1274
++.gjfzpt.cn
+full:fzapp.gjfzpt.cn
+full:fzapph5.gjfzpt.cn
+full:fzapph5v1.gjfzpt.cn
++.chanct.cn
++.chanct.com
++.chanct.xyz
++.chanct.top
++.chanct.wang
++.chanct.ltd
++.fz96110.com
++.hbca110.com
+full:intercept.cdn.hbca110.com
++.fzlm.org.cn
++.fanzha.org.cn
++.fqzpt.com
++.appbushou.com
++.hicore.com
++.hicore-auth.com
++.hei-tong.com
++.loongteam.com
++.china-bestmind.com
++.himindtech.com
++.fhss.com.cn
++.hailiangyun.cn
++.tendyron.com
+# https://github.com/nextdns/native-tracking-domains/issues/17
++.avlyun.com
+full:ixav-cse.avlyun.com
+full:log.avlyun.sec.intl.miui.com
+full:logupdate.avlyun.sec.miui.com
+full:xlmc.sec.miui.com
+full:adv.sec.miui.com
+full:mazu.sec.miui.com
+full:data.sec.miui.com
+full:flash.sec.miui.com
+full:api.installer.xiaomi.com
+full:tmfsdk.qq.com
+full:tmfsdktcp.qq.com
+full:luban.m.qq.com
+full:SafeGuard.qq.com
+
+[cidr]
+# https://github.com/felixonmars/dnsmasq-china-list/blob/master/bogus-nxdomain.china.conf
+# https://github.com/BlueSkyXN/96110
+39.102.194.95/32
+182.43.124.6/32
+124.236.16.201/32
+106.74.25.198/32
+221.180.160.221/32
+211.137.117.149/32
+36.135.82.110/32
+211.139.145.129/32
+157.148.47.204/32
+219.143.187.136/32
+106.39.52.58/32
+123.59.129.164/32
+222.186.34.170/32
+61.139.8.100/32
+61.139.8.101/32
+61.139.8.102/32
+61.139.8.103/32
+218.30.64.194/32
+61.191.206.4/32
+123.125.81.6/32
+123.125.81.12/32
+202.106.199.34/32
+202.106.195.30/32
+211.98.70.226/32
+211.98.70.227/32
+211.98.71.195/32
+221.179.46.190/32
+221.179.46.194/32

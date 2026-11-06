@@ -1,0 +1,26 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/netease
+# https://github.com/v2fly/domain-list-community/blob/master/data/kugou
+# https://github.com/v2fly/domain-list-community/blob/master/data/ximalaya
++.music.163.com
++.music.126.net
++.y.qq.com
++.music.qq.com
++.stream.qqmusic.qq.com
++.kugou.com
++.kgimg.com
++.kuwo.cn
++.koowo.com
++.ximalaya.com
++.xmcdn.com
++.taihe.com
++.qianqian.com
++.qingting.fm
++.qtfm.cn
++.lizhi.fm
++.missevan.com
++.changba.com
++.5sing.kugou.com
++.qishui.com
+
+[cidr]

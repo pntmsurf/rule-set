@@ -1,0 +1,36 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/chinamobile
+# https://github.com/v2fly/domain-list-community/blob/master/data/chinaunicom
+# https://github.com/v2fly/domain-list-community/blob/master/data/chinatelecom
+# https://github.com/v2fly/domain-list-community/blob/master/data/chinabroadnet
++.10086.cn
++.chinamobile.com
++.chinamobileltd.com
++.cmcc-cs.cn
++.cmi.chinamobile.com
++.cmpassport.com
++.fetion-portal.com
++.migu.cn
++.monternet.com
++.139.com
++.10010.com
++.10010.cn
++.chinaunicom.com
++.chinaunicom.cn
++.chinaunicomglobal.com
++.unicompayment.com
++.wo.cn
++.wo.com.cn
++.189.cn
++.chinatelecom.com.cn
++.chinatelecom-h.com
++.chinatelecomglobal.com
++.ctexcel.com
++.ctyun.cn
++.ctyunapi.cn
++.21cn.com
++.10099.com.cn
++.chinabroadnet.cn
++.cbn.cn
+
+[cidr]

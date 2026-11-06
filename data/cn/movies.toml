@@ -1,0 +1,43 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/iqiyi
+# https://github.com/v2fly/domain-list-community/blob/master/data/youku
+# https://github.com/v2fly/domain-list-community/blob/master/data/hunantv
++.iqiyi.com
++.iqiyipic.com
++.qiyi.com
++.qiyipic.com
++.71.am
++.71edge.com
++.gitv.tv
++.youku.com
++.ykimg.com
++.tudou.com
++.cibntv.net
++.soku.com
++.v.qq.com
++.video.qq.com
++.wetv.vip
++.mgtv.com
++.hunantv.com
++.imgo.tv
++.hitv.com
++.le.com
++.letv.com
++.letvimg.com
++.sohu.com
++.tv.sohu.com
++.itc.cn
++.pptv.com
++.pplive.com
++.1905.com
++.miguvideo.com
++.migu.cn
++.mddcloud.com.cn
++.yangshipin.cn
++.cctv.com
++.cctvpic.com
++.cntv.cn
++.maoyan.com
++.taopiaopiao.com
+
+[cidr]
