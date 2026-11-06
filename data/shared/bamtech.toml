@@ -1,0 +1,7 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/bamtech
++.bamgrid.com
++.bamtech.net
++.dmed.technology
+
+[cidr]

@@ -1,0 +1,6 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/deezer
++.deezer.com
++.dzcdn.net
+
+[cidr]

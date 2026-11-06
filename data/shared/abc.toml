@@ -1,0 +1,8 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/abc
++.abc-studios.com
++.abc.com
++.abcnews.com
++.edgedatg.com
+
+[cidr]

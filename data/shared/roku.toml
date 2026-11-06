@@ -1,0 +1,10 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/roku
++.fandango.com
++.mgo.com
++.mgo-images.com
++.ravm.tv
++.roku.com
++.rokutime.com
+
+[cidr]

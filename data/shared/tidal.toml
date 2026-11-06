@@ -1,0 +1,11 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/tidal
++.tidal.com
++.tidalhifi.com
++.wimpmusic.com
+# https://github.com/v2fly/domain-list-community/blob/master/data/soundcloud
++.sndcdn.com
++.soundcloud.cloud
++.soundcloud.com
+
+[cidr]

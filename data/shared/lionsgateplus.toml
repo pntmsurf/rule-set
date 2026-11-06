@@ -1,0 +1,6 @@
+[domains]
+# https://github.com/KIDA-MNESIA/gadgets/blob/main/geosite-adg/lionsgateplus.list
++.lionsgateplus.com
++.starz.com
+
+[cidr]

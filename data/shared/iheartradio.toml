@@ -1,0 +1,15 @@
+[domains]
+# https://github.com/KIDA-MNESIA/gadgets/blob/main/geosite-adg/iheartradio.list
++.937theriver.com
++.iheart.com
++.iheartmedia.com
++.iheart.mx
++.iheartradio.ca
++.iheartradio.com
++.iheartradio.co.nz
++.ihrdev.com
++.ihrhls.com
++.ihrint.com
++.ihrstage.com
+
+[cidr]

@@ -1,0 +1,26 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/spotify
+adeventtracker.spotify.com
+adstudio-assets.scdn.co
+bloodhound.spotify.com
+full:adeventtracker.spotify.com
+full:adstudio-assets.scdn.co
+full:bloodhound.spotify.com
+full:ads-fa.spotify.com
+full:analytics.spotify.com
+full:crashdump.spotify.com
+full:log.spotify.com
+full:log2.spotify.com
+full:pixel.spotify.com
+full:pixel-static.spotify.com
+full:heads-fa.scdn.co
+full:audio-fa.scdn.co
+full:ads.soundcloud.com
+full:promoted.soundcloud.com
+full:telemetry.soundcloud.com
+full:ads.deezer.com
+full:ads.iheart.com
+full:ads.pandora.com
+full:stats.pandora.com
+
+[cidr]

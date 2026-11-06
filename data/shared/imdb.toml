@@ -1,0 +1,9 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/imdb
++.imdb
++.boxofficemojo.com
++.imdb.com
++.imdb.to
++.media-imdb.com
+
+[cidr]

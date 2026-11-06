@@ -1,0 +1,43 @@
+[domains]
+# https://github.com/v2fly/domain-list-community/blob/master/data/netflix
+# https://github.com/v2fly/domain-list-community/blob/master/data/disney
+disney.my.sentry.io
+# https://github.com/hagezi/dns-blocklists/issues/4917
+full:disney.my.sentry.io
++.ichnaea.netflix.com
++.ichnaea-web.netflix.com
++.customerevents.netflix.com
++.beacon.netflix.com
++.presentationtracking.netflix.com
++.nmtracking.netflix.com
+full:ads.youtube.com
+full:ad.youtube.com
+full:ads.twitch.tv
+full:spade.twitch.tv
+full:pubads.g.doubleclick.net
+full:securepubads.g.doubleclick.net
++.ads.roku.com
++.logs.roku.com
++.scribe.logs.roku.com
++.cooper.logs.roku.com
++.liberty.logs.roku.com
++.austin.logs.roku.com
++.amoeba.roku.com
++.ads.hulu.com
++.ad.hulu.com
++.t2.hulu.com
++.cdp.cloud.unity3d.com
++.fwmrm.net
++.innovid.com
++.spotxchange.com
++.spotx.tv
++.springserve.com
++.beachfront.com
++.tremorhub.com
++.unrulymedia.com
++.connatix.com
++.jwpltx.com
++.analytics.plex.tv
++.metrics.plex.tv
+
+[cidr]
